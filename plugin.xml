@@ -51,8 +51,7 @@
   </platform>
 
   <platform name="android">
-    <framework src="com.google.android.gms:play-services-analytics:$FCM_VERSION" />
-    <preference name="FCM_VERSION" default="11.4.2"/>
+    <framework src="com.google.android.gms:play-services-analytics:11.4.2" />
 
     <config-file target="res/xml/config.xml" parent="/*">
       <feature name="UniversalAnalytics">
